@@ -1,0 +1,21 @@
+@import 'styles/_constants';
+@import 'styles/_mixins';
+
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  @include flex-start;
+  height: $navbar-height;
+  background-color: $primary;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}

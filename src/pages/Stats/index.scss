@@ -1,0 +1,12 @@
+@import 'styles/_constants';
+@import 'styles/_mixins';
+
+.stats {
+  h2 {
+    margin: 0;
+  }
+  
+  .collapsed {
+    background-color: rgba($primary, .05);
+  }
+}

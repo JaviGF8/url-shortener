@@ -1,0 +1,15 @@
+@import 'styles/_constants';
+@import 'styles/_mixins';
+
+.form {
+  @include flex-column;
+
+  > .buttons {
+    display: flex;
+    margin-top: $size-lg;
+
+    > *:not(:last-child) {
+      margin-right: $size-md;
+    }
+  }
+}

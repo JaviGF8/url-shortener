@@ -1,0 +1,13 @@
+@import 'styles/_constants';
+@import 'styles/_mixins';
+
+.custom-page {
+  @include flex-column;
+  padding: $size-lg;
+  width: 100%;
+
+  &:not(.fullpage) {
+    max-width: $screen-xl;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,59 @@
+$browser-context: 16;
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
+
+// ***********
+// COLORS
+// ***********
+$primary: #1976d2;
+$secondary: #9c27b0;
+
+$black: #000000;
+$white: #ffffff;
+
+$success: #2e7d32;
+$error: #d32f2f;
+
+// ***********
+// FONT
+// ***********
+$font-xs: rem(10);
+$font-sm: rem(12);
+$font-md: rem(14);
+$font-lg: rem(16);
+$font-xl: rem(20);
+$font-subtitle: rem(24);
+$font-title: rem(32);
+
+// ***********
+// PADDING, MARGIN AND RADIUS
+// ***********
+$size-xs: rem(2);
+$size-sm: rem(4);
+$size-md: rem(8);
+$size-lg: rem(16);
+$size-xl: rem(32);
+$size-xxl: rem(64);
+
+// ***********
+// TRANSITIONS
+// ***********
+$transition-slow: 0.5s;
+$transition-mid: 0.25s;
+$transition-fast: 0.1s;
+
+// ***********
+// SCREEN SIZES
+// ***********
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+// ***********
+// OTHERS
+// ***********
+$navbar-height: rem(48);
+$navbar-mobile-height: rem(83);

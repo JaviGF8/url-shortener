@@ -1,0 +1,17 @@
+@import 'styles/_constants';
+@import 'styles/_mixins';
+
+.landing {
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: $size-lg 0;
+  }
+  .MuiPaper-root {
+    margin-top: $size-lg;
+    .MuiAlert-message {
+      @include flex-start;
+    }
+  }
+}

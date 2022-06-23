@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+build/
+package.json
+*.css
+reportWebVitals.ts
+tsconfig.json

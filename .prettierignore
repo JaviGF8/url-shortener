@@ -1,0 +1,14 @@
+node_modules/
+build/
+coverage/
+.eslintrc
+eslintrc.json
+README.md
+tsconfig.json
+package.json
+package-lock.json
+
+.scannerwork/
+compilation-stats.json
+compilation-report.html
+text-report.xml
